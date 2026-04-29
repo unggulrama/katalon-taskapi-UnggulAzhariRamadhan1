@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>End to End - API Test Books</name>
+   <name>E2E_API_Books</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

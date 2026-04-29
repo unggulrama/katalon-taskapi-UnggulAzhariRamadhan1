@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Books</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4598157b-0d61-45b1-a772-8c464afa919b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d3afee3-bfa1-4dbc-abbb-c93ce8566275</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0994c678-f0a8-474b-a482-0dfaa5e61208</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af2bf14e-c909-4c86-8fd6-c70297ca04d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed0cb650-f49b-4c82-8e05-aeaf15b7e223</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'response'</defaultValue>
+      <description></description>
+      <id>4d3afee3-bfa1-4dbc-abbb-c93ce8566275</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+   <variable>
+      <defaultValue>200</defaultValue>
+      <description></description>
+      <id>0994c678-f0a8-474b-a482-0dfaa5e61208</id>
+      <masked>false</masked>
+      <name>statusCodeSukses</name>
+   </variable>
+   <variable>
+      <defaultValue>'title'</defaultValue>
+      <description></description>
+      <id>af2bf14e-c909-4c86-8fd6-c70297ca04d4</id>
+      <masked>false</masked>
+      <name>locator</name>
+   </variable>
+   <variable>
+      <defaultValue>'Book 1'</defaultValue>
+      <description></description>
+      <id>ed0cb650-f49b-4c82-8e05-aeaf15b7e223</id>
+      <masked>false</masked>
+      <name>valueLocator</name>
+   </variable>
+</TestCaseEntity>

@@ -17,18 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Positive/Get Books'), [('response') : response, ('statusCodeSukses') : statusCodeSukses
-        , ('locator') : locator, ('valueLocator') : valueLocator, ('valueLocatorCount') : valueLocatorCount], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequestAndVerify(findTestObject('Books/Edit Books'))
 
-WebUI.callTestCase(findTestCase('Blocks/Positive/Post Books'), [('response') : response, ('statusCodeSukses') : statusCodeSukses
-        , ('locator') : locator, ('valueLocator') : valueLocator], FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(response, statusCodeSukses)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive/Get Single Book'), [('response') : response, ('statusCodeSukses') : statusCodeSukses
-        , ('locator') : locator, ('valueLocator') : valueLocator], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Blocks/Positive/PUT Books'), [('response') : response, ('statusCodeSukses') : statusCodeSukses
-        , ('locator') : locator, ('valueLocator') : valueLocator], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Blocks/Positive/Delete Books'), [('response') : 'response', ('statusCodeSukses') : 200, ('locator') : 'title'
-        , ('valueLocator') : 'Book 1'], FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(response, locator, valueLocator)
 

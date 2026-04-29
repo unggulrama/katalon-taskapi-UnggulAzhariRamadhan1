@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>685230a9-e629-4565-bdd9-ef8ae9081cfa</testSuiteGuid>
    <testCaseLink>
-      <guid>ba678e04-96a5-47fb-a2d9-932af42e96ab</guid>
+      <guid>cf38b284-fdbe-4be3-812c-d99988ac0bde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case/End to End - API Test Books</testCaseId>

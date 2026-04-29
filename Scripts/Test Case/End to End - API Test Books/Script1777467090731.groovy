@@ -32,5 +32,3 @@ WebUI.callTestCase(findTestCase('Blocks/Positive/PUT Books'), [('response') : re
 WebUI.callTestCase(findTestCase('Blocks/Positive/Delete Books'), [('response') : 'response', ('statusCodeSukses') : 200, ('locator') : 'title'
         , ('valueLocator') : 'Book 1'], FailureHandling.STOP_ON_FAILURE)
 
-WS.sendRequest(findTestObject(null))
-

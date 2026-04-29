@@ -7,12 +7,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 0,\n  \&quot;title\&quot;: \&quot;string\&quot;,\n  \&quot;description\&quot;: \&quot;string\&quot;,\n  \&quot;pageCount\&quot;: 0,\n  \&quot;excerpt\&quot;: \&quot;string\&quot;,\n  \&quot;publishDate\&quot;: \&quot;2026-04-23T08:14:50.839Z\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;:1,\n  \&quot;title\&quot;:\&quot;${titleInput}\&quot;,\n  \&quot;description\&quot;:\&quot;Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\n\&quot;,\n  \&quot;pageCount\&quot;:100,\n  \&quot;excerpt\&quot;:\&quot;Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\\n\&quot;,\n  \&quot;publishDate\&quot;:\&quot;2026-04-28T12:07:18.5407338+00:00\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -39,6 +39,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'Book 1'</defaultValue>
+      <description></description>
+      <id>1a5fb3c0-d6bf-4af6-ae5b-e58081a8d521</id>
+      <masked>false</masked>
+      <name>titleInput</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
